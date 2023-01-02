@@ -1,0 +1,143 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    list-style-type: none;
+}
+
+/* Nav */
+.main-nav{
+    border-bottom: 8px solid #ff6600;
+    padding: 0px;
+}
+
+.main-nav li:hover {
+    background-color: rgb(101, 229, 47);
+    color: rgb(57, 111, 247);
+    border-radius: 30px;
+  }
+
+a:link{
+    text-decoration: none;
+}
+
+.menu-item{
+    margin-right: 45px;
+    font-size: 1em;
+    padding: 20px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+
+.navbar-toggler{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+    vertical-align: middle;
+}
+
+.navbar-toggler:focus,.navbar-toggler:hover {
+    border: 2px solid rgb(18, 16, 16);
+}
+
+.main-menu{
+    padding-right: 30px;
+    width: fit-content;
+    height: 500px;
+    position: absolute;
+    border-right: 1px solid #eaecef;
+    display: block;
+    transition: all .5s;
+}
+
+
+.main-menu-item{
+    font-size: 1.5em;
+    font-family: "sans-serif";
+    margin-bottom: 20px;
+    margin-left: -2px;
+    color: #3e6389;
+    font-weight:bold;
+}
+
+.main-menu-item a:hover{
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+
+/* content */
+.content-main{
+    transition: all .5s;
+}
+
+.content-title{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 24px;
+    color: #2c99ce;
+    text-align: center;
+    border-bottom:1px solid #eaecef;
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+
+/* --------------PreTest / PostTest Quiz----------------- */
+
+
+.question{
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.submit-button{
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0em;
+    font-size: 1rem;
+}
+.submit-button:hover{
+    transform: scale(1.25rem);
+}
